@@ -1,4 +1,5 @@
 import "./topbar.css";
+import avatar from "../../img/avatar.png"
 
 export default function TopBar() {
     return (
@@ -22,7 +23,7 @@ export default function TopBar() {
             <div className="topRight">
                 <img 
                 className="topImg"
-                src="https://images.pexels.com/photos/9727533/pexels-photo-9727533.jpeg?cs=srgb&dl=pexels-erik-mclean-9727533.jpg&fm=jpg" alt="" />
+                src={avatar} alt="Avatar" />
                 <i className="topSearchIcon fas fa-search"></i>
             </div>
         </div>
