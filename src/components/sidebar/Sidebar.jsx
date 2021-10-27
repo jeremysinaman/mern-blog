@@ -28,6 +28,7 @@ export default function Sidebar() {
             <i className="sidebarIcon fab fa-twitter-square"></i>
             <i className="sidebarIcon fab fa-linkedin"></i>
             <i className="sidebarIcon fab fa-instagram-square"></i>
+            <i className="sidebarIcon fab fa-github-square"></i>
         </div>
 
 
