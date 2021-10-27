@@ -15,9 +15,9 @@ export default function Sidebar() {
             <ul className="sidebarList">
                 <li className="sidebarListItem">Life</li>
                 <li className="sidebarListItem">Mangas</li>
+                <li className="sidebarListItem">Tech</li>
                 <li className="sidebarListItem">Animes</li>
                 <li className="sidebarListItem">Sport</li>
-                <li className="sidebarListItem">Tech</li>
                 <li className="sidebarListItem">Video Games</li>
             </ul>
         </div>
@@ -26,7 +26,7 @@ export default function Sidebar() {
         <div className="sidebarSocial">
             <i className="sidebarIcon fab fa-facebook-square"></i>
             <i className="sidebarIcon fab fa-twitter-square"></i>
-            <i className="sidebarIcon fab fa-pinterest-square"></i>
+            <i className="sidebarIcon fab fa-linkedin"></i>
             <i className="sidebarIcon fab fa-instagram-square"></i>
         </div>
 
