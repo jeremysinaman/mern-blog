@@ -2,7 +2,7 @@ const router = require("express").Router();
 const User = require("../models/User");
 const Post = require("../models/User");
 const bcrypt = require("bcrypt");
-const { deleteModel } = require("mongoose");
+
 
 // UPDATE
 router.put("/:id", async (req,res) => {
