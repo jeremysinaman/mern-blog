@@ -1,23 +1,26 @@
 import "./post.css"
+import { Link } from 'react-router-dom'; 
 
-export default function Post() {
+export default function Post({post}) {
     return (
         <div className="post">
-            <img className="postImg" src="https://static.lexpress.fr/medias_12267/w_640,h_358,c_fill,g_center/v1604585788/le-film-d-animation-demon-slayer-est-sorti-en-salle-au-japon-le-16-octobre_6280800.jpg" alt="" />
+        {post.photo && (
+            <img className="postImg" src={post.photo} alt="" />
+        )}
 
             <div className="postInfo">
                 <div className="postCats">
-                    <span className="postCat">Mangas</span>
-                    <span className="postCat">Animes</span>
+                    {post.categories.map(c=>(
+                        <span className="postCat">{c.name}</span>
+                    ))}
                 </div>
-                <span className="postTitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </span>
+                <Link to={`/post/${post._id}`} className="link"> <span className="postTitle">{post.title}
+                </span></Link>
+               
                 <hr/>
-                <span className="postDate">1 hour ago</span>
+                <span className="postDate">{new Date(post.createdAt).toDateString()}</span>
             </div>
-            <p className="postDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dicta distinctio consequuntur Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis voluptas sed incidunt consectetur veniam beatae maiores quo, doloremque nisi tenetur rerum expedita laborum amet, facilis, 
-            inventore ab quidem harum nostrum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dicta distinctio consequuntur Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis voluptas sed incidunt consectetur veniam beatae maiores quo, doloremque nisi tenetur rerum expedita laborum amet, facilis, 
-            inventore ab quidem harum nostrum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat dicta distinctio consequuntur Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis voluptas sed incidunt consectetur veniam beatae maiores quo, doloremque nisi tenetur rerum expedita laborum amet, facilis.</p>
+            <p className="postDesc">{post.desc}</p>
         </div>
     )
 }
