@@ -19,8 +19,7 @@ export default function Sidebar() {
             <div className="sidebarItem">
                 <span className="sidebarTitle">ABOUT ME</span>
                 <img src="https://i.pinimg.com/236x/c4/c7/b0/c4c7b0f1b4e93447b2a6abb4c4d9356c.jpg" alt="" />
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti tenetur eaque error, blanditiis mollitia expedita soluta commodi 
-                laborum officiis excepturi labore laboriosam accusamus veritatis adipisci cumque consequuntur enim porro sequi.
+                <p>Hello, I'm Jeremy and this is my blog. You will see a lot about my life, my passions. I love Mangas, Animes, Video Games, Football and Food so ... Welcome !  
                 </p>
             </div>
             <div className="sidebarItem">
@@ -36,11 +35,11 @@ export default function Sidebar() {
         <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW ME</span>
         <div className="sidebarSocial">
-            <i className="sidebarIcon fab fa-facebook-square"></i>
-            <i className="sidebarIcon fab fa-twitter-square"></i>
-            <i className="sidebarIcon fab fa-linkedin"></i>
-            <i className="sidebarIcon fab fa-instagram-square"></i>
-            <i className="sidebarIcon fab fa-github-square"></i>
+        <a href="https://www.facebook.com/Jeiy97" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-facebook-square"></i> </a>
+        <a href="https://twitter.com/jeremysinaman" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/jeiy97/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/jeremysinaman/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-instagram-square"></i></a>
+        <a href="https://github.com/jeremysinaman" target="_blank" rel="noreferrer"> <i className="sidebarIcon fab fa-github-square"></i></a>
         </div>
 
 
