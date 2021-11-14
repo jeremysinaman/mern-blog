@@ -37,8 +37,8 @@ export default function Sidebar() {
         <div className="sidebarSocial">
         <a href="https://www.facebook.com/Jeiy97" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-facebook-square"></i> </a>
         <a href="https://twitter.com/jeremysinaman" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-twitter-square"></i></a>
-        <a href="https://www.instagram.com/jeiy97/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-linkedin"></i></a>
-        <a href="https://www.linkedin.com/in/jeremysinaman/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-instagram-square"></i></a>
+        <a href="https://www.linkedin.com/in/jeremysinaman/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/jeiy97/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-instagram-square"></i></a>
         <a href="https://github.com/jeremysinaman" target="_blank" rel="noreferrer"> <i className="sidebarIcon fab fa-github-square"></i></a>
         </div>
 

@@ -17,8 +17,8 @@ export default function TopBar() {
             <div className="topLeft">
         <a href="https://www.facebook.com/Jeiy97" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-facebook-square"></i> </a>
         <a href="https://twitter.com/jeremysinaman" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-twitter-square"></i></a>
-        <a href="https://www.instagram.com/jeiy97/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-linkedin"></i></a>
-        <a href="https://www.linkedin.com/in/jeremysinaman/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-instagram-square"></i></a>
+        <a href="https://www.linkedin.com/in/jeremysinaman/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/jeiy97/" target="_blank" rel="noreferrer"><i className="sidebarIcon fab fa-instagram-square"></i></a>
         <a href="https://github.com/jeremysinaman" target="_blank" rel="noreferrer"> <i className="sidebarIcon fab fa-github-square"></i></a>
             </div>
             <div className="topCenter">
@@ -26,8 +26,6 @@ export default function TopBar() {
                     <li className="topListItem">
                         <Link className="link" to="/">HOME</Link>
                     </li>
-                    <li className="topListItem"><Link className="link" to="/">ABOUT</Link></li>
-                    <li className="topListItem"><Link className="link" to="/">CONTACT</Link></li>
                     <li className="topListItem"><Link className="link" to="/write">WRITE</Link></li>
                     <li className="topListItem" onClick={handleLogout}>
                         {user && "LOGOUT"}
