@@ -13,17 +13,17 @@ export default function Settings() {
     const [success, setSuccess] = useState(false);
 
     const { user,dispatch } = useContext(Context);
-    const PF = "http://localhost:5000/images";
+    const PF = "http://localhost:5000/images"
 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        dispatch({type:"UPDATE_START"})
+        dispatch({type:"UPDATE_START"});
         const updatedUser = {
             userId:user._id,
             username,
             email,
-            password
+            password,
         };
         if(file){
             const data = new FormData();
@@ -60,7 +60,7 @@ export default function Settings() {
                 <form className="settingsForm" onSubmit={handleSubmit}>
                     <label> Profile Picture </label>
                     <div className="settingsPP">
-                        <img src={file ? URL.createObjectURL(file) : PF + user.profilePic} alt="" />
+                        <img src={file ? URL.createObjectURL(file) : PF+user.profilePic} alt="" />
                         <label htmlFor="fileInput">
                         <i className="settingsPPIcon far fa-user-circle"></i>
                         </label>
@@ -81,5 +81,5 @@ export default function Settings() {
             </div>
                 <Sidebar/>
            </div>
-    )
+    );
 }

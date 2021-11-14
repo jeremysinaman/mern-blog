@@ -1,6 +1,7 @@
 const Category = require("../models/Category");
 
 //GET ONE CATEGORY
+
 module.exports.getOneCategory = async (req, res) => {
     const newCat = new Category(req.body);
     try {
