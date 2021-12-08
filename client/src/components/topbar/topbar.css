@@ -1,13 +1,101 @@
-.top {
+
+@media screen and (min-width: 968px) {
+    .top {
+        width: 100%;
+        height: 50px;
+        background: rgba(0,0,0,0.5);
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        font-family: 'Mitr', sans-serif;
+        z-index: 999;
+        background-color: transparent;
+        position: absolute;
+       
+    }
+    
+    
+    .topLeft,
+    .topRight{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topCenter{
+        flex:6
+    }
+    
+    .topIcon{
+        font-size: 20px;
+        margin-right: 10px;
+        color:#444;
+        cursor: pointer;
+    }
+    
+    .topImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    .topList{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .topListItem{
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        cursor: pointer;
+        text-transform: uppercase;
+    display: inline-block;
+    font: 0.8vw roboto;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    
+    .topSearchIcon{
+        font-size: 18px;
+        color: #666;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    
+    .link {
+    text-transform: uppercase;
+     
+        display: inline-block;
+      
+       
+        font: 0.8vw roboto;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    
+    }
+    }
+    @media screen and (min-width: 1024px) {
+    .top {
     width: 100%;
     height: 50px;
-    background-color: white;
+    background: rgba(0,0,0,0.5);
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
     font-family: 'Mitr', sans-serif;
     z-index: 999;
+    background-color: transparent;
+    position: absolute;
+   
 }
 
 
@@ -51,6 +139,11 @@
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    font: 0.8vw roboto;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .topSearchIcon{
@@ -60,4 +153,182 @@
     margin-left: 15px;
 }
 
+.link {
+text-transform: uppercase;
+ 
+    display: inline-block;
+  
+   
+    font: 0.8vw roboto;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
 
+}
+}
+@media screen and (min-width: 880px) {
+    .top {
+        width: 100%;
+        height: 50px;
+        background: rgba(0,0,0,0.5);
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        font-family: 'Mitr', sans-serif;
+        z-index: 999;
+        background-color: transparent;
+        position: absolute;
+       
+    }
+    
+    
+    .topLeft,
+    .topRight{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topCenter{
+        flex:6
+    }
+    
+    .topIcon{
+        font-size: 20px;
+        margin-right: 10px;
+        color:#444;
+        cursor: pointer;
+    }
+    
+    .topImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    .topList{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .topListItem{
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        cursor: pointer;
+        text-transform: uppercase;
+    display: inline-block;
+    font: 0.8vw roboto;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    
+    .topSearchIcon{
+        font-size: 18px;
+        color: #666;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    
+    .link {
+    text-transform: uppercase;
+     
+        display: inline-block;
+      
+       
+        font: 0.8vw roboto;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+}
+
+@media screen and (max-width: 880px) {
+    .top {
+        width: 100%;
+        height: 50px;
+        background: rgba(0,0,0,0.5);
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        font-family: 'Mitr', sans-serif;
+        z-index: 999;
+        background-color: transparent;
+        position: absolute;
+       
+    }
+    
+    
+    .topLeft,
+    .topRight{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topCenter{
+        flex:6
+    }
+    
+    .topIcon{
+        font-size: 20px;
+        margin-right: 10px;
+        color:#444;
+        cursor: pointer;
+    }
+    
+    .topImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    .topList{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .topListItem{
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: 300;
+        cursor: pointer;
+        text-transform: uppercase;
+    display: inline-block;
+    font: 0.8vw roboto;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    
+    .topSearchIcon{
+        font-size: 18px;
+        color: #666;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    
+    .link {
+    text-transform: uppercase;
+     
+        display: inline-block;
+      
+       
+        font: 0.8vw roboto;
+        color: white;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+}

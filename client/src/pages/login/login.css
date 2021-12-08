@@ -27,8 +27,14 @@
     background-color: white;
     border: none;
 }
+ 
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(5, 82, 82);
+}
+ 
 
-.loginButton{
+button  {
     margin-top: 20px;
     cursor: pointer;
     background-color: teal;
@@ -36,21 +42,5 @@
     color: white;
     border-radius: 10px ;
     padding: 10px;
-}
-
-.loginButton:disabled{
-    cursor: not-allowed;
-    background-color: rgb(5, 82, 82);
-}
-
-.loginRegisterButton{
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: teal;
-    cursor: pointer;
-    border:none;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
+    width: inherit !important;
+} 

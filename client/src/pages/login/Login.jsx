@@ -39,7 +39,7 @@ export default function Login() {
                     ref={passwordRef}
                 />
                 <button className="loginButton" type="submit" disabled={isFetching}>Login</button>
-            </form>
+            </form> 
              <button className="loginRegisterButton">
              <Link className="link" to="/register">Register</Link>
              </button>

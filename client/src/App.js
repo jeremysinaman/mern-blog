@@ -1,4 +1,6 @@
 import Home from "./pages/home/Home";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import TopBar from "./components/topbar/TopBar";
 import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
@@ -18,6 +20,7 @@ function App() {
   const {user} = useContext(Context); 
   return (
   <Router>
+    
     <TopBar/>
     <Switch>
       <Route exact path="/">

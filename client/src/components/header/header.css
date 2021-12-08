@@ -1,5 +1,168 @@
-.header{
-    margin-top: 60px;
+
+@media screen and (min-width: 880px) {
+    .header__img{
+        width: 100%;
+        filter: blur(4.5px);
+    }
+    
+    .headerTitles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Sriracha', cursive;
+        color: #444;
+        text-align: center; 
+        margin: 0;
+       
+    }
+    
+    .headerTitleSm{
+        position:absolute;
+        top: 9%;
+        font-size: 20px;
+    }
+    .header__name {
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        display: inline-block;
+        border: 4px double rgba(0, 0, 0, 0.25);
+        border-width: 4px 0;
+        padding: 1.5em 0em;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        width: 40em;
+        margin: 0 0 0 -20em;
+        font:  1em  roboto;
+        color: white; text-shadow: black 0.1em 0.1em 0.2em
+    }
+    
+    .headerTitleLg{
+        font: 700 2em/1 "Staatliches", sans-serif;
+        letter-spacing: .1em;
+          padding: .25em 0 .325em;
+          display: block;
+          margin: 0 auto;
+          text-shadow: 0 0 80px rgba(255,255,255,.5); 
+    
+          font-size: 5vw;
+        color: #0C0D2C;
+        -webkit-text-stroke: 0.5px #0C0D2C;
+        background: url(https://i.imgur.com/ErzV4Nx.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+     
+    
+    /* Animate Background Image */
+    
+        -webkit-text-fill-color: transparent;
+         animation: aitf 80s linear infinite;
+    
+    /* Activate hardware acceleration for smoother animations */
+    
+         transform: translate3d(0,0,0);
+        backface-visibility: hidden;
+    
+    }  
+    
+    @keyframes aitf {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+     
+    .headerImg{
+        width: 100%;
+        height: 400px;
+        margin-top: 80px;
+        object-fit: cover;
+    } 
+}
+
+ 
+@media screen and (min-width: 968px) {
+    .header__img{
+        width: 100%;
+        filter: blur(4.5px);
+    }
+    
+    .headerTitles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Sriracha', cursive;
+        color: #444;
+        text-align: center; 
+        margin: 0;
+       
+    }
+    
+    .headerTitleSm{
+        position:absolute;
+        top: 9%;
+        font-size: 20px;
+    }
+    .header__name {
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        display: inline-block;
+        border: 4px double rgba(0, 0, 0, 0.25);
+        border-width: 4px 0;
+        padding: 1.5em 0em;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        width: 40em;
+        margin: 0 0 0 -20em;
+        font:  1em  roboto;
+        color: white; text-shadow: black 0.1em 0.1em 0.2em
+    }
+    
+    .headerTitleLg{
+        font: 700 2em/1 "Staatliches", sans-serif;
+        letter-spacing: .1em;
+          padding: .25em 0 .325em;
+          display: block;
+          margin: 0 auto;
+          text-shadow: 0 0 80px rgba(255,255,255,.5); 
+    
+          font-size: 5vw;
+        color: #0C0D2C;
+        -webkit-text-stroke: 0.5px #0C0D2C;
+        background: url(https://i.imgur.com/ErzV4Nx.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+     
+    
+    /* Animate Background Image */
+    
+        -webkit-text-fill-color: transparent;
+         animation: aitf 80s linear infinite;
+    
+    /* Activate hardware acceleration for smoother animations */
+    
+         transform: translate3d(0,0,0);
+        backface-visibility: hidden;
+    
+    }  
+    
+    @keyframes aitf {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+     
+    .headerImg{
+        width: 100%;
+        height: 400px;
+        margin-top: 80px;
+        object-fit: cover;
+    } 
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header__img{
+    width: 100%;
+    filter: blur(4.5px);
 }
 
 .headerTitles{
@@ -8,6 +171,9 @@
     align-items: center;
     font-family: 'Sriracha', cursive;
     color: #444;
+    text-align: center; 
+    margin: 0;
+   
 }
 
 .headerTitleSm{
@@ -15,16 +181,147 @@
     top: 9%;
     font-size: 20px;
 }
-
-.headerTitleLg{
-    position:absolute;
-    top: 11%;
-    font-size: 100px;
+.header__name {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(0, 0, 0, 0.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+    font:  1.2em  roboto;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
 }
 
+.headerTitleLg{
+    font: 700 4em/1 "Staatliches", sans-serif;
+    letter-spacing: .1em;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5); 
+
+      font-size: 5vw;
+    color: #0C0D2C;
+    -webkit-text-stroke: 0.5px #0C0D2C;
+    background: url(https://i.imgur.com/ErzV4Nx.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+ 
+
+/* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+     animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+     transform: translate3d(0,0,0);
+    backface-visibility: hidden;
+
+}  
+
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+ 
 .headerImg{
     width: 100%;
     height: 400px;
     margin-top: 80px;
     object-fit: cover;
+}
+}
+
+@media screen and (max-width: 880px) {
+    .header__img{
+        width: 100%;
+        filter: blur(4.5px);
+    }
+    
+    .headerTitles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Sriracha', cursive;
+        color: #444;
+        text-align: center; 
+        margin: 0;
+       
+    }
+    
+    .headerTitleSm{
+        position:absolute;
+        top: 9%;
+        font-size: 20px;
+    }
+    .header__name {
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        display: inline-block;
+        border: 4px double rgba(0, 0, 0, 0.25);
+        border-width: 4px 0;
+        padding: 1.5em 0em;
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        width: 40em;
+        margin: 0 0 0 -20em;
+        font:  0.8em  roboto;
+        color: white; text-shadow: black 0.1em 0.1em 0.2em
+    }
+    
+    .headerTitleLg{
+        font: 700 2em/1 "Staatliches", sans-serif;
+        letter-spacing: .1em;
+          padding: .25em 0 .325em;
+          display: block;
+          margin: 0 auto;
+          text-shadow: 0 0 80px rgba(255,255,255,.5); 
+    
+          font-size: 5vw;
+        color: #0C0D2C;
+        -webkit-text-stroke: 0.5px #0C0D2C;
+        background: url(https://i.imgur.com/ErzV4Nx.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+     
+    
+    /* Animate Background Image */
+    
+        -webkit-text-fill-color: transparent;
+         animation: aitf 80s linear infinite;
+    
+    /* Activate hardware acceleration for smoother animations */
+    
+         transform: translate3d(0,0,0);
+        backface-visibility: hidden;
+    
+    }  
+    
+    @keyframes aitf {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+     
+    .headerImg{
+        width: 100%;
+        height: 400px;
+        margin-top: 80px;
+        object-fit: cover;
+    } 
+}
+
+
+@media screen and (max-width: 767px) {
+}
+
+
+@media screen and (max-width: 350px) {
+    
 }
