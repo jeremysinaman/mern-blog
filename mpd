@@ -1,0 +1,3 @@
+* Les entités se transforment en tables ;
+* Les propriétés se transforment en champs (ou attributs) ;
+*Les propriétés se trouvant au milieu d’une relation génèrent une nouvelle table ou glissent vers la table adéquate en fonction des cardinalités de la relation ; 
