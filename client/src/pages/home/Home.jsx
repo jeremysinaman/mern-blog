@@ -27,8 +27,8 @@ export default function Home() {
         <div className="jumbotron p-3 p-md-5 text-white rounded  "> 
         <div> 
        <div class=" home__description col-md-6 px-0">
-           <h1 className="home__title display-4 font-italic"> Découvrez les articles de nos utilisateurs</h1>
-           <p className="home__text lead my-3"> BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA .</p>
+           <h1 className="home__title display-4 font-italic"> Découvrez mes articles ainsi que les articles de nos utilisateurs !</h1>
+           <p className="home__text lead my-3"> Et n'hésitez pas à écrire les vôtres.</p>
            </div>
            </div>
        </div>  

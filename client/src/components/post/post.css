@@ -1,10 +1,30 @@
  .posts {
-    width: 80%; 
+    width: 85%; 
     margin : 2em auto !important;
  } 
 
  .postImg {
     width: 200px;
-    height: 250px;
+    height: 240px;
     object-fit: cover;
+ }
+
+ .postDesc {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 24px;
+   color: #444444;
+   margin-top: 15px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4;
+   -webkit-box-orient: vertical;
+ }
+
+ .postTitle {
+   font-size: 15px;
+   font-weight: 900;
+   margin-top: 15px;
+   cursor: pointer;
  }

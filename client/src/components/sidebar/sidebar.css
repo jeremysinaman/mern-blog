@@ -48,6 +48,8 @@
     width: 50%;
     margin-top: 15px;
     cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
 }
 
 .sidebarSocial{
