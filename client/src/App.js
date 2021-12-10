@@ -1,5 +1,5 @@
 import Home from "./pages/home/Home";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import TopBar from "./components/topbar/TopBar";
 import Settings from "./pages/settings/Settings";

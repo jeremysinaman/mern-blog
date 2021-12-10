@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import {axiosInstance} from "../../config";
+import axios from "axios";
 import Header from "../../components/header/Header"
 import Posts from "../../components/posts/Posts";
 import Sidebar from "../../components/sidebar/Sidebar";
@@ -14,7 +14,7 @@ export default function Home() {
 
     useEffect(() => {
         const fetchPosts = async () => {
-            const res = await axiosInstance.get("/posts"+search);
+            const res = await axios.get("/posts"+search);
             setPosts(res.data)
         }
         fetchPosts();
